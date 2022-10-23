@@ -4,7 +4,9 @@ public class App {
     public static void main(String[] args) throws Exception{
         //Entradas
         Scanner sc = new Scanner (System.in);
+        System.out.println("Altura: ");
         double altura = sc.nextDouble();
+        System.out.println("Peso: ");
         double peso = sc.nextDouble();
         sc.close();
 
